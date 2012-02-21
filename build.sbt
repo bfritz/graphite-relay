@@ -1,3 +1,5 @@
+import AssemblyKeys._
+
 name := "graphite-relay"
 
 version := "0.2.5"
@@ -18,3 +20,5 @@ libraryDependencies ++= Seq(
     "org.scalatest" % "scalatest" % "1.3" % "test",
     "com.github.scopt" %% "scopt" % "1.1.1"
 )
+
+seq(assemblySettings: _*)
